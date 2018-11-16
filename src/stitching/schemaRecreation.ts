@@ -241,6 +241,7 @@ export function argumentToArgumentConfig(
         type: type,
         defaultValue: argument.defaultValue,
         description: argument.description,
+        astNode: argument.astNode,
       },
     ];
   }
